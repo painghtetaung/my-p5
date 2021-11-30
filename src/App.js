@@ -2,10 +2,14 @@ import React from 'react'
 import './App.css';
 //components
 import Canva from './components/Canva';
+import Sparkle from './components/Sparkle';
 
 const App = () => {
   return (
-    <Canva></Canva>
+   <>
+       <Canva></Canva>
+        <Sparkle></Sparkle>  
+    </>
   )
 }
 
